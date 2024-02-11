@@ -1,0 +1,558 @@
+<!doctype html>
+<!--
+* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
+* @version 1.0.0-beta19
+* @link https://tabler.io
+* Copyright 2018-2023 The Tabler Authors
+* Copyright 2018-2023 codecalm.net Paweł Kuna
+* Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blank page - Tabler - Premium and Open Source dashboard template with responsive and high quality UI.</title>
+    <!-- CSS files -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <link href="./dist/css/tabler.min.css?1684106062" rel="stylesheet" />
+    <link href="./dist/css/tabler-flags.min.css?1684106062" rel="stylesheet" />
+    <link href="./dist/css/tabler-payments.min.css?1684106062" rel="stylesheet" />
+    <link href="./dist/css/tabler-vendors.min.css?1684106062" rel="stylesheet" />
+    <link href="./dist/css/demo.min.css?1684106062" rel="stylesheet" />
+    <style>
+        @import url('https://rsms.me/inter/inter.css');
+
+        :root {
+            --tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+        }
+
+        body {
+            font-feature-settings: "cv03", "cv04", "cv11";
+
+        }
+      
+
+
+        /* Additional CSS styles can be added here */
+    </style>
+</head>
+
+<body>
+    <script src="./dist/js/demo-theme.min.js?1684106062"></script>
+    <div class="">
+        <!-- class="page" -->
+        <!-- Navbar -->
+        <header class="navbar navbar-expand-md d-print-none" style="width: 100%;">
+            <div class="container-xl" >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu"
+                    aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                 <!-- class="d-flex justify-content-start align-items-center"> Added wrapper div with flex utility classes -->
+
+                <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 " >
+                    <a href=".">
+                        <img  src="./static/logo.png" width="110" height="32" alt="Tabler" class="navbar-brand-image ">
+                    </a>
+                </h1>
+                
+                <div class="navbar">
+                    <div class="container-xl">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./">
+                                    <span
+                                        class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/home -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                                            <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                                            <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                                        </svg>
+                                    </span>
+                                    <span class="nav-link-title">
+                                        Dashboard
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item active dropdown">
+                                <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside" role="button" aria-expanded="false">
+                                    <span
+                                        class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/package -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+                                            <path d="M12 12l8 -4.5" />
+                                            <path d="M12 12l0 9" />
+                                            <path d="M12 12l-8 -4.5" />
+                                            <path d="M16 5.25l-8 4.5" />
+                                        </svg>
+                                    </span>
+                                    <span class="nav-link-title">
+                                        Reporting
+                                    </span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-menu-columns">
+                                        <div class="dropdown-menu-column">
+                                            <a class="dropdown-item" href="./accordion.html">
+                                                Report 1
+                                            </a>
+                                            <a class="dropdown-item active" href="./blank.html">
+                                                Report 2
+                                            </a>
+                                            <a class="dropdown-item" href="./badges.html">
+                                                Report 3
+                                                <span
+                                                    class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
+                                            </a>
+
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- doubt -->
+
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="#navbar-extra" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside" role="button" aria-expanded="false">
+                                    <span
+                                        class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                        </svg>
+                                    </span>
+                                    <span class="nav-link-title">
+                                        Sample
+                                    </span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-menu-columns">
+
+                                        <div class="dropdown-menu-column">
+                                            <a class="dropdown-item" href="./logs.html">
+                                                Sample 1
+                                                <span
+                                                    class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
+                                            </a>
+                                            <a class="dropdown-item" href="./music.html">
+                                                Sample 1
+                                            </a>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+
+
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="my-2 my-md-0 flex-grow-1 flex-md-grow-0 order-first order-md-last search ">
+                    <!-- me-lg-8 -->
+                    <form action="./" method="get" autocomplete="off" novalidate>
+                        <div class="input-icon">
+                            <span class="input-icon-addon">
+                              
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                                    <path d="M21 21l-6 -6" />
+                                </svg>
+                            </span>
+                            <input type="text" value="" class="form-control" placeholder="Search…"
+                                aria-label="Search in website">
+                        </div>
+                    </form>
+                </div>
+                <div class="navbar-nav flex-row order-md-last" >
+
+                    <div class="d-none d-md-flex">
+
+
+                       
+                        <div class="nav-item dropdown d-none d-md-flex me-3">
+                            <a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1"
+                                aria-label="Show notifications">
+                               
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                                    <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+                                </svg>
+                                <span class="badge bg-red"></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-end dropdown-menu-card">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Last updates</h3>
+                                    </div>
+                                    <div class="list-group list-group-flush list-group-hoverable">
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col-auto"><span
+                                                        class="status-dot status-dot-animated bg-red d-block"></span>
+                                                </div>
+                                                <div class="col text-truncate">
+                                                    <a href="#" class="text-body d-block">Example 1</a>
+                                                    <div class="d-block text-muted text-truncate mt-n1">
+                                                        Change deprecated html tags to text decoration classes (#29604)
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a href="#" class="list-group-item-actions">
+                                                      
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted"
+                                                            width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path
+                                                                d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col-auto"><span class="status-dot d-block"></span></div>
+                                                <div class="col text-truncate">
+                                                    <a href="#" class="text-body d-block">Example 2</a>
+                                                    <div class="d-block text-muted text-truncate mt-n1">
+                                                        justify-content:between ⇒ justify-content:space-between (#29734)
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a href="#" class="list-group-item-actions show">
+                                                      
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-yellow"
+                                                            width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path
+                                                                d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col-auto"><span class="status-dot d-block"></span></div>
+                                                <div class="col text-truncate">
+                                                    <a href="#" class="text-body d-block">Example 3</a>
+                                                    <div class="d-block text-muted text-truncate mt-n1">
+                                                        Update change-version.js (#29736)
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a href="#" class="list-group-item-actions">
+                                                     
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted"
+                                                            width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path
+                                                                d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col-auto"><span
+                                                        class="status-dot status-dot-animated bg-green d-block"></span>
+                                                </div>
+                                                <div class="col text-truncate">
+                                                    <a href="#" class="text-body d-block">Example 4</a>
+                                                    <div class="d-block text-muted text-truncate mt-n1">
+                                                        Regenerate package-lock.json (#29730)
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a href="#" class="list-group-item-actions">
+                                                        
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted"
+                                                            width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                            stroke="currentColor" fill="none" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                            <path
+                                                                d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown"
+                            aria-label="Open user menu">
+                            <span class="avatar avatar-sm">
+                            <i class="fa-solid fa-user" style="font-size: medium;"></i>  </span>
+                               <!-- style="background-image: url(./static/avatars/000m.jpg)" -->
+                            <div class="d-none d-xl-block ps-2">
+                                <div>Paweł Kuna</div>
+                                <div class="mt-1 small text-muted">UI Designer</div>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                            <a href="#" class="dropdown-item">Status</a>
+                            <a href="./profile.html" class="dropdown-item">Profile</a>
+                            <a href="#" class="dropdown-item">Feedback</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="./settings.html" class="dropdown-item">Settings</a>
+                            <a href="./sign-in.html" class="dropdown-item">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="navbar-expand-md">
+            <!-- class="navbar-expand-md" -->
+            <div class="collapse navbar-collapse" id="navbar-menu" style="background-color: #f2f3f3 !important;">
+                <div class="" style="background-color: #f2f3f3; ">
+                    <!-- navbar class -->
+                    <div class="container-md" >
+                      <ul class="breadcrumb">
+  <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+  <li ><a href="#">All Calls</a></li>
+  <li style="opacity: 0.5;"><a href="#">Call in Progress</a></li>
+  
+</ul> 
+                        
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <div class="page-wrapper">
+            <!-- Page body -->
+            <div class="page-body">
+                <div class="vedioscreen">
+                    <div class="box1">
+                        <span style="margin-left: 10px;margin-top: 8px; position: absolute;">Kiosk 1</span>
+                        <div class="call-info" style="position: relative;"><i class="fa-solid fa-phone-volume"></i>
+                            <p >Call in Progress..</p>
+                        </div>
+                        <div class="record">
+                            <div class="timer">
+                             <div style="padding: 1px; padding-left: 3px;" onclick="startRecording()" class="rec-camera">  <i class='fas fa-record-vinyl'></i></div> 
+                                <div id="recordBtn" >Rec:</div>
+                                <div id="timerDisplay">00:00:00</div>
+                              </div>
+                            
+                            <div class="agent-call"><img class="no-face" src="./static/no-face.jpg"/></div>
+                        </div>
+                        <div class="icons">
+                            <div class="rec-icon"><i class="fa-solid fa-expand"></i></div>
+                            <div class="rec-icon"><i class="fa fa-microphone" aria-hidden="true"></i></div>
+                          
+                                <div class="phone-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            
+                                <div class="camera"><i class="fa fa-video-camera" aria-hidden="true"></i></div>
+                        
+                           
+                                <div class="volume rec-icon"><i class="fa fa-volume-up" aria-hidden="true"></i></div>
+                           
+
+
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <div class="box2-head">
+                            <h3>Vedio Processing Status</h3>
+                            <p style="margin-left: 65px;"><span style="color: gray;">Transaction ID:</span>
+                                098584824821</p>
+                        </div>
+                        <div>
+                            <div class="heading-box2">
+                                
+                                <div class="file">File</div>
+                                <div class="status-file ">Status</div>
+                               
+                            </div>
+                            <div class="container-checkbox ">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="option1" onclick="handleCheckboxClick('option1')" />
+                                        <label for="option1" class="label" >Passport Front</label>
+                                        <div class="file-container">
+                                            <input type="file" id="fileInput_option1" style="display: none;" onchange="updateFileName(this, 'option1')">
+                                            <label for="fileInput_option1" class="choose-file-button">Choose File</label>
+                                            
+                                            <a id="downloadLink" style="display: none;"></a>
+                                        </div>
+                                        <!-- <div id="dom" class="dom" style="margin-left: 40px;" ></div> -->
+                                        <button class="initiate" id="initiate1" >Initiate</button>
+                                    <button class="tick" >  <i class="fa fa-close"></i></button>
+                                    <button class="tick" id="tick"><i class="fa-solid fa-check" onclick="downloadFile()"></i></button>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="option2" onclick="handleCheckboxClick('option2')" />
+                                    <label for="option2" class="label" >Passport Back</label>
+                                   
+                                    <div class="file-container">
+                                        <input type="file" id="fileInput_option2" style="display: none;" onchange="updateFileName(this, 'option2')">
+                                        <label for="fileInput_option2" class="choose-file-button">Choose File</label>
+                                        <a id="downloadLink2" style="display: none;"></a>
+                                    </div>
+                                    <!-- <div id="dom" class="dom" style="margin-left: 40px;" ></div> -->
+                                    <button class="initiate" id="initiate2">Initiate</button>
+                                    <button class="tick">  <i class="fa fa-close"></i></button>
+                                    <button class="tick"><i class="fa-solid fa-check" onclick="downloadFile('option2')"></i></button>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="option3" onclick="handleCheckboxClick('option3')" />
+                                    <label for="option3" class="label">Emirates ID</label>
+                                    <div class="file-container">
+                                        <input type="file" accept=".pdf,.jpeg,.doc,.docx,image/*" id="fileInput_option3" style="display: none;" onchange="updateFileName(this, 'option3')">
+                                        <label for="fileInput_option3" class="choose-file-button">Choose File</label>
+                                        <a id="downloadLink_option3" style="display: none;"></a>
+                                    </div>
+                                    <button class="initiate" id="initiate3">Initiate</button>
+                                    <button class="tick" onclick="downloadFile('option3')"><i class="fa fa-close"></i></button>
+                                    <button class="tick" id="tick3"><i class="fa-solid fa-check"></i></button>
+                                </div>
+                                
+                                <div class="checkbox">
+                                    <input type="checkbox"id="option4" onclick="handleCheckboxClick('option4')" />
+                                    <label for="option4"class="label" >Signature</label>
+                                    <div class="file-container">
+                                        <input type="file" id="fileInput_option4" style="display: none;" onchange="updateFileName(this, 'option4')">
+                                        <label for="fileInput_option4" class="choose-file-button">Choose File</label>
+                                        <a id="downloadLink4" style="display: none;"></a>
+                                    </div>
+                                    <button class="initiate" id="initiate4">Initiate</button>
+                                    <button class="tick">  <i class="fa fa-close"></i></button>
+                                    <button class="tick"><i class="fa-solid fa-check" onclick="downloadFile('option4')"></i></button>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="option5" onclick="handleCheckboxClick('option5')"/>
+                                    <label for="option5" class="label">ID</label>
+                                    <div class="file-container">
+                                        <input type="file" id="fileInput_option5" style="display: none;" onchange="updateFileName(this, 'option5')">
+                                        <label for="fileInput_option5" class="choose-file-button">Choose File</label>
+                                        <a id="downloadLink5" style="display: none;"></a>
+                                    </div>
+                                    <button class="initiate" id="initiate5">Initiate</button>
+                                    <button class="tick">  <i class="fa fa-close"></i></button>
+                                    <button class="tick"><i class="fa-solid fa-check" onclick="downloadFile('option5')"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-box2" type="button" >Cancel this Session</button>
+                    </div>
+                </div>
+                <div class="message-icon" style="float: right; margin-right: 20px;">
+                    <i class="fa-regular fa-message"></i>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+<script>function handleCheckboxClick(id) {
+    
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    var buttons = document.querySelectorAll('.initiate');
+   
+    // btn.style.backgroundColor="green";
+    checkboxes.forEach(function(checkbox) {
+        if (checkbox.id !== id) {
+            checkbox.checked = false;
+        }
+    });
+
+    buttons.forEach(function(button) {
+            if (button.id === "initiate" + id.charAt(id.length - 1)) {
+                button.classList.add('checked');
+            } else {
+                button.classList.remove('checked');
+            }
+        });
+}
+
+// function updateFileName(input, checkboxId) {
+//     const fileName = input.files[0].name;
+//     const chooseFileButton = document.querySelector(`#${checkboxId} + .file-container .choose-file-button`);
+//     chooseFileButton.textContent = fileName;
+// }
+function updateFileName(input, checkboxId) {
+    const fileName = input.files[0].name;// Get the name of the selected file
+    const fileContainer = input.parentElement;  // Get the parent element of the file input, which contains the file-related elements
+    const chooseFileButton = fileContainer.querySelector('.choose-file-button'); // Find the "Choose File" button within the file container
+    chooseFileButton.textContent = fileName;
+}
+function downloadFile(checkboxId) {
+   
+    const fileInput = document.getElementById('fileInput_option1');
+
+    const file = fileInput.files[0];
+    if (file) {
+        const downloadLink = document.getElementById('downloadLink');
+        const url = URL.createObjectURL(file);
+        downloadLink.href = url;
+        downloadLink.download = file.name;
+        downloadLink.click();
+        URL.revokeObjectURL(url); 
+        document.getElementById('tick').style.backgroundColor = "yellow";
+        // document.getElementById('dom').textContent = "accepted";
+        
+        
+    }
+
+
+    // const tickButton = document.querySelector(`#${checkboxId} + .tick`);
+    // tickButton.style.backgroundColor = "yellow";
+
+    // const fileInput = document.getElementById(`fileInput_${checkboxId}`);
+    // const file = fileInput.files[0];
+    // if (file) {
+    //     const downloadLink = document.getElementById(`downloadLink_${checkboxId}`);
+    //     const url = URL.createObjectURL(file);
+    //     downloadLink.href = url;
+    //     downloadLink.download = file.name;
+    //     downloadLink.click();
+    //     URL.revokeObjectURL(url);
+    // }
+}
+</script>
+
+    <script src="./dist/js/tabler.min.js?1684106062" defer></script>
+    <script src="./dist/js/demo.min.js?1684106062" defer></script>
+</body>
+
+</html>
